@@ -92,7 +92,7 @@ const navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4078c0] py-3'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="https://www.linkedin.com/in/akash-yadav-85a070236/">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>

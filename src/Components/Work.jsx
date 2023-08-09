@@ -1,5 +1,6 @@
 import React from 'react'
 import realestate from '../assets/realestate.jpg'
+import gkquiz from '../assets/gk-quiz.png'
 import Food from '../assets/Food-order.png'
 
 const Work = () => {
@@ -13,7 +14,7 @@ const Work = () => {
 
         {/* container for projects */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4' >
-                    <div style={{backgroundImage:`url(${Food})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+                    <div style={{backgroundImage:`url(${Food})`}}  className='  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100 '>
@@ -31,18 +32,36 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{backgroundImage:`url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+                    <div style={{backgroundImage:`url('https://opengameart.org/sites/default/files/preview_937.png')`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100 '>
                             <span className='text-white text-2xl font-bold tracking-wider'>
-                                ReactJS Application
+                                Snake Game
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
                                 </a>
+                                <a href="https://github.com/akash786y/SnakeGame">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{backgroundImage:`url(${gkquiz})`}}  className='bg-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+
+                        {/* Hover effects */}
+                        <div className='opacity-0 group-hover:opacity-100 '>
+                            <span className='text-white text-2xl font-bold tracking-wider'>
+                                GK-Quiz
+                            </span>
+                            <div className='pt-8 text-center'>
                                 <a href="">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
+                                </a>
+                                <a href="https://github.com/akash786y/GK_Quiz">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>
@@ -67,7 +86,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{backgroundImage:`url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+                    <div style={{backgroundImage:`url()`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100 '>
@@ -85,25 +104,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{backgroundImage:`url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
-
-                        {/* Hover effects */}
-                        <div className='opacity-0 group-hover:opacity-100 '>
-                            <span className='text-white text-2xl font-bold tracking-wider'>
-                                ReactJS Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style={{backgroundImage:`url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+                    <div style={{backgroundImage:`url()`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
 
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100 '>
